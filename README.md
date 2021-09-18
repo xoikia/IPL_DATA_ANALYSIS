@@ -584,7 +584,8 @@ venue_stats(csk_data,'Chennai Super Kings')
 
 In majority of venues less than 5 matches has been played, we will consider those venue where more than 5 matches were played.
 
-      * CSK played 48 matches on  MA Chidambaram Stadium, Chepauk  won 34.0 lost 14.0	 witha winning % of 70.83 and loss % of 29.16.
+      * CSK played 48 matches on  MA Chidambaram Stadium, Chepauk  won 34.0 lost 14.0 with a winning percentage of 70.83
+      and loss percentage of 29.16%.
       
       * CSk has Highest winning % of 83.33 on Maharashtra Cricket Association Stadium.
       
@@ -615,6 +616,19 @@ match_won_loss(csk_data,'Chennai Super Kings')
 Chennai Super Kings won 57 matches and loss 32 matches winning the toss .Chennai Super Kings won 43 matches and loss 32 matches lossing the toss.
 
 
+### **Stats of winning/lossing a match based on winning/lossing toss**
+```
+match_won_loss(csk_data,'Chennai Super Kings')
+```
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/opting_bat_field_csk.png" alt="stats on different ocassion of toss">
+</p>
+
+
+| Toss Decision | No.Matches won | No.Matches loss |
+|---------------|----------------|-----------------|
+|	bat	|      30        |       18        |
+| 	field	|      27	 |       14        |
 
    
 

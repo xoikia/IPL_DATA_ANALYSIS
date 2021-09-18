@@ -331,3 +331,45 @@ Selecting the top 10 players with most 4's and selecting the 10 player with most
       
       * Rohit Sharma has scored 2888 runs which is the third highest.
       
+      
+      
+### **Most Player of the Match**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Most%20Player%20of%20the%20Match.png" alt="Players with most Player of Match">
+</p>
+      
+      * CH Gayle top the list in most number of Player of the Match in 21 ocassions.
+      
+      * AB de Villiers has the second most Player of the Match,20.
+      
+      * RG Sharma, Dhoni,Warner holds the third position with 17 Player of the Match.
+      
+      
+### **Orange Cap Winner for each Season**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/orange%20Cap%20Winner%20each%20Season.png" alt="Orange Cap winners of each Season">
+</p>
+
+      * Among all the Orange Cap winners Virat Kohli has scored most runs in a season
+
+
+### **Purple Cap Winner for each Season**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/orange%20Cap%20Winner%20each%20Season.png" alt="Purple Cap winners of each Season">
+</p>
+
+      * Among all the Purple Cap Winners , DJ Bravo has won in two different Seasons.
+      
+      * Among all the players who have won Purple cap in a particular season Lasith Malinga has taken highest wickets.
+      
+      
+### **Highest Target Set**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Top%2010%20Highest%20Target.png" alt="Top 10 Highest Target">
+</p>
+
+      * Royal Challengers Banglore has set the highest target of 263 and they have 3 top scores in Top 10 Highest Target
+
+      * Kolkata Knight Riders have set the second highest target of 250.
+
+

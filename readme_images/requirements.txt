@@ -1,7 +1,0 @@
-seaborn
-plotly
-numpy
-pandas
-matplotlib
-cufflinks
-WordCloud

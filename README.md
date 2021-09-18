@@ -305,13 +305,13 @@ The following graph shows the number of wickets taken and number of overs bowled
    
    ### **Fastest Fifties in IPL**
    
-   |match_id  |	  Team	              |   Player	    |        Opposition	           |Balls_for_50 |Total Runs Scored |Total Balls faced|
-   |----------|--------------------------|----------------|------------------------------|-------------|------------------|-----------------|
-   |7895	     |Kings XI Punjab	        |KL Rahul	       |Delhi Capitals	              |     14	    |       51	        |      16         |
-	|511	     |Kolkata Knight Riders	  |YK Pathan	    |Sunrisers Hyderabad	        |     15	    |       72         |	   22         |
-	|45	     |Kolkata Knight Riders	  |SP Narine	    |Royal Challengers Bangalore	  |     15	    |       54	        |      17         |
-	|516	     |Chennai Super Kings	     |SK Raina	       |Kings XI Punjab	              |     16	    |       87	        |      25         |
-	|172	     |Deccan Chargers	        |AC Gilchrist	 |Delhi Capitals	              |     17	    |       85	        |      35         |
+   |match_id  |	  Team	              |   Player       |        Opposition	      |Balls_for_50 |Total Runs Scored |Total Balls faced|
+   |----------|-----------------------|----------------|------------------------------|-------------|------------------|-----------------|
+   |7895      |Kings XI Punjab	      |KL Rahul	       |Delhi Capitals	              |     14	    |       51	       |      16         |
+   |511       |Kolkata Knight Riders  |YK Pathan       |Sunrisers Hyderabad	      |     15	    |       72         |      22         |
+   |45	      |Kolkata Knight Riders  |SP Narine       |Royal Challengers Bangalore   |     15	    |       54	       |      17         |
+   |516	      |Chennai Super Kings    |SK Raina	       |Kings XI Punjab	              |     16	    |       87	       |      25         |
+   |172	      |Deccan Chargers	      |AC Gilchrist    |Delhi Capitals	              |     17	    |       85	       |      35         |
       
       
 ### **Players with most Half Centuries and Centuries**

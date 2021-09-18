@@ -430,3 +430,194 @@ Selecting the top 10 players with most 4's and selecting the 10 player with most
       
 The number of times the team winning toss have won is  393 and the probability of winning if won the toss is  0.52
 
+
+
+So this was the overall statistics, apart from that I have created two new csv files after preprocessing , they are final [Players_data.csv](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Players_data.csv), [Final_Data.csv](https://github.com/xoikia/IPL_DATA_ANALYSIS#:~:text=3%20days%20ago-,Final_Data.csv,-Add%20files%20via). These two files will be used for further anlaysis. I have created a helper files called [Utility_Functions.py](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Utility_Functions.py) which contains all the necessary methods to obtain the various stats. I have build the statistics of each team separately. So I will describe the statistics of Chennai Super Kings only  as it is not possible to include all those statistics here.
+
+
+
+## **Detail Analysis of  Chennai Super Kings**
+
+### **Reading both the separate csv files**
+
+***Final_Data.csv file contains all the necessary informations of each matches. Players_data.csv file contains informations of the players such as teams for which they played, runs scored, wickets taken etc.***
+
+```
+final_data = pd.read_csv('Final_Data.csv')
+players_data = pd.read_csv('Players_data.csv')
+```
+
+
+### **Loading the data of Chennai Super Kings**
+```
+csk_data=get_data(final_data,'Chennai Super Kings')
+csk_data.head(5)
+```
+
+### **Seasons Chennai played**
+```
+get_season(csk_data)
+```
+2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2018, 2019
+   
+Chennai Super kings didn't played in the season 2016,2017
+
+### **Checking the result type**
+```
+csk_data['result'].value_counts()
+```
+|normal|163|
+|------|---|
+|tie   |1  |
+
+1 match was tied between csk and the opponent.
+
+
+### **checking the winner when the matched was tied**
+```
+check_winneron_tie(csk_data)
+```
+|winner	         |player_of_match|
+|-----------------|---------------|
+|Kings XI Punjab	|J Theron       |
+
+The winning team was Kings XI Punjab and J Theron won the player of the match.
+
+### **checking the stats on winning**
+```
+runs_wickets_stats_while_winning(csk_data,'Chennai Super Kings')
+```
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Winning%20stats%20CSK.png" alt="Winning Statistics of CSK">
+</p>
+
+|                |count    |   mean    |    std    |min   |50%   | 75%   |max |
+|----------------|---------|-----------|-----------|------|------|-------|----|
+|win_by_runs     |52.0     |34.192308  |28.075555  |1.0   |24.0  |49.75  |97.0|
+|win_by_wickets  |48.0     |6.020833   |1.907316   |1.0   |6.0   |7.00   |10.0|
+
+From the above table as well as the box plot given below we can say that:
+
+	   * The highest win margin while batting first is 97.0 runs.
+      
+	   * While batting second is 10.0  wickets.
+      
+	   * Around 75% Chennai Super Kings defending a target won by less than 49.75runs and 25% more than 49.75runs.
+      
+	   * Around 75% Chennai Super Kings chasing a target won by less than 7 wickets and 25% more than 7.0 wickets.
+   
+### **while winning checking the stats of win_by_runs and win_by_wickets**
+```
+runs_wickets_stats_while_winning(csk_data,'Chennai Super Kings')
+```
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Losing%20stats%20CSK.png" alt="Losing Statistics of CSK">
+</p>
+
+|                |count |mean       |std        |min  |50%  |75%   |max |
+|----------------|------|-----------|-----------|-----|-----|------|----|
+|win_by_runs     |52.0  |34.192308  |28.075555  |1.0  |24.0 |49.75 |97.0|
+|win_by_wickets  |48.0  |6.020833   |1.907316   |1.0  |6.0  |7.00  |10.0|
+
+
+From the above table as well as the box plot given below we can say that:
+
+	   * The highest win margin while batting first is 97 runs.
+   
+	   * While batting second is 10  wickets.
+      
+	   * Around 75% Chennai Super Kings defending a target won by less than 49.75runs and 25% more than 49.75runs.
+   
+	   * Around 75% Chennai Super Kings chasing a target won by less than 7.0 wickets and 25% more than 7 wickets.
+   
+   
+### **Teams against which highest win margin**
+   ```
+   max_runs_wickets_while_win(csk_data,'Chennai Super Kings')
+   ```
+   
+      * Chennai has highest win_by_runs of 97 against Kings XI Punjab and BB McCullum was Player of Match.
+      
+      * Chennai has highest win_by_wickets of 10 against Kings XI Punjab and MEK Hussey was Player of Match.
+      
+### **Teams against which highest defeat margin**
+   ```
+   max_runs_wickets_while_loss(csk_data,'Chennai Super Kings')
+   ```
+   
+      * Chennai has highest defeat in terms of run(60) against Mumbai Indians and MG Johnson was Player of Match.
+      
+      * Chennai has highest defeat in terms of wickets(9) against Mumbai Indians and ST Jayasuria.
+   
+### **Counting the total number of matches won on different seasons**
+```
+win_perseason=matched_won_perseason(csk_data,'Chennai Super Kings')
+win_perseason
+```
+
+|season	                  |wins|
+|--------------------------|----|
+|2008, Chennai Super Kings	|9   |
+|2009, Chennai Super Kings	|8   |
+|2010, Chennai Super Kings	|9   |
+|2011, Chennai Super Kings	|11  |
+|2012, Chennai Super Kings	|10  |
+|2013, Chennai Super Kings	|12  |
+|2014, Chennai Super Kings	|10  |
+|2015, Chennai Super Kings	|10  |
+|2018, Chennai Super Kings	|11  |
+|2019, Chennai Super Kings	|10  |
+
+
+      * In season 2013 CSK played 12 games which is the highest number of matches played in any season.
+      
+      * In season 2009 CSK played 8 games which is the lowest number of matches palyed in any season.
+      
+      
+### **Checking the venue on which most number of games are played**
+```
+venue_stats(csk_data,'Chennai Super Kings')
+```
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/CSK%20Venues.png" alt="CSK Venues">
+</p>
+
+In majority of venues less than 5 matches has been played, we will consider those venue where more than 5 matches were played.
+
+      * CSK played 48 matches on  MA Chidambaram Stadium, Chepauk  won 34.0 lost 14.0	 witha winning % of 70.83 and loss % of 29.16.
+      
+      * CSk has Highest winning % of 83.33 on Maharashtra Cricket Association Stadium.
+      
+      * CSK has highest lossing %  of 54.54 on  Eden Gardens.
+      
+      * In 28 stadiums less than 5 games were played by CSK.
+      
+      
+### **Number of times toss won and loss**
+```
+toss_stats(csk_data,'Chennai Super Kings')
+```
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/csk_toss_stats.png" alt="CSK toss stats">
+</p>
+
+Chennai Super Kings won toss 89 times and loss toss 75 times
+
+
+### **Stats of winning/lossing a match based on winning/lossing toss**
+```
+match_won_loss(csk_data,'Chennai Super Kings')
+```
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/match_won_loss_csk.png" alt="CSK macth won loss">
+</p>
+
+Chennai Super Kings won 57 matches and loss 32 matches winning the toss .Chennai Super Kings won 43 matches and loss 32 matches lossing the toss.
+
+
+
+   
+
+
+
+

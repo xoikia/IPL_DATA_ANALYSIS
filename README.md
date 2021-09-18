@@ -152,3 +152,138 @@ The average number of balls bowled per wicket taken. (SR = Balls/W). Considering
       * A Reddy has the second best of 15.
       
       * S Gopal has the third best of 15.61.
+      
+      
+### **Bowlers with most Maiden Overs bowled**
+Maiden over is not pretty common in T20 matches as the bestman tries to hit from the very first ball faced. These are the following bowlers with most number of Maiden Overs bowled in IPL history.
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Bowlers%20with%20most%20Maiden%20Overs%20bowled.png" at="Bowlers with most maiden overs">
+</p>
+
+
+### **Bowlers with most number of Extra balls and Extra Runs conceeded**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Bowlers%20with%20most%20number%20of%20Extra%20balls%20and%20Extra%20Runs%20conceeded.png" at="Bowlers with Extra runs and balls bowled">
+</p>
+
+       * Malinga has bowled most number of Wide balls and he has conceeded most number of extra runs.
+       
+       * S Sreesanth has bowled most number of No balls.
+       
+       
+### **Players with 5 wickets in a innings**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Players%20with%205%20wickets%20in%20a%20innings.png" at="Players with 5 wickets in a match">
+</p>
+      
+      * There are 15 players with 5 wickets haul to their name.
+      
+      * J Unadkat and J Faulkner are the only players with 2 five wickets haul to their names.
+      
+### **Players with 4 wickets in a Innings**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Players%20with%204%20wickets%20in%20a%20Innings.png" at="Players with 4 wickets in a match">
+</p>
+
+      * Malinga and Sunil Narine are the only bolwers who has 4 wickets hawls in 6 matches.
+      
+### **Players with Hatricks**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Players%20with%20Hatricks.png" alt="players with hatricks">
+</p>
+
+There are 16 players who have taken hattricks. Among all the hatrick takers
+
+      * A Mishra has 3 hatricks which is the highets by any players.
+    
+      * Yuvraj Singh has 2 hatricks to his name.
+    
+      * Rest all the hatrick takers has 1 each.
+      
+
+## **Best Bowlers at Death overs**
+Death overs generally refer the last overs of the cricket match.. It is called so because those overs are the crucial overs of the match. 
+As Batting side Opinion:- The more you hit in last couple of Over (15–20 in T20) the more the target to defend.
+
+As Bowling side Opinion - The less you  concede, lesser the runs to chase to win the match.
+
+### **Bowlers with most wickets in Death Overs**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Bowlers%20with%20most%20wickets%20in%20Death%20Overs.png" alt="players with most wickets in Death overs">
+</p>
+
+The following graph shows the number of wickets taken and number of overs bowled at death overs by a player 
+       
+       * Malinga has taken 120+ wickets in death overs which is the highest number of wickets taken at death overs.
+       
+       * DJ Bravo has taken 100+ wickets in death overs.
+       
+       * B Kumar has taken 80 wickets in depth overs
+       
+### **Top 10 Most Economical Bowlers at the Depth Overs**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Top%2010%20Most%20Economical%20Bowlers%20at%20the%20Depth%20Overs.png" alt="Economical bowler in Death overs">
+</p>
+
+
+      * S Gopal and Sohail Tanvir are the only bowlers who have economy rate less than 7.5
+
+### **Bowlers with best Bowling Average at the death overs**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Bowlers%20with%20best%20Bowling%20Average%20at%20the%20death%20overs.png" alt="Bowler with best Average in  Death overs">
+</p>
+
+      * Adam Zampa and Sohail Tanvir are the only bowlers with average less than 7 
+      
+      
+### **Bowlers with best Strike rate at the death overs**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Bowlers%20with%20best%20Strike%20rate%20at%20the%20death%20overs.png" alt="Bowler with best SR in Death overs">
+</p>
+
+      * Adam Zampa and VY Mahesh are the only bowlers with Strike Rate less than 5
+
+## **WicketKeepers with most number of Dismissals**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/WicketKeepers%20with%20most%20number%20of%20Dismissals.png" alt="WK with most number of dismissals">
+</p>
+
+      * D Karthik has 109 numbers of caught behind which is the highest followed by MS DHoni 98.
+      
+      * In case of Stumpings it is lead by MS Dhoni 38 followed by Karthik Robin Uthappa 32.
+      
+      
+## **Batsman Statistics**
+
+### **Players with most Runs**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Players%20with%20most%20Runs.png" alt="Players with most runs scored">
+</p>
+
+      * V kohli has the highest number of runs scored. He has scored 5429 runs.
+      
+      * Suresh Raina has scored 5407 runs which is second highest run scored.
+      
+      * Kohli and Raina are the only players with more than 5000 runs.
+      
+      * The third highest run getter is Rohit Sharma with 4914 runs.
+      
+      
+### **Players with most Half Centuries and Centuries**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Players%20with%20most%20Half%20Centuries%20and%20Centuries.png" alt="Players with most 50's and 100's scored">
+</p>
+
+**Most Half - Century scored**
+ 
+       * DA Warner has 44 50's to his name which is the highest number of half century scored by any player.
+       
+       * S Raina has 38 half centuries to his name followed by Kohli 37 half centuries.
+       
+ **Most Centuries scored**
+ 
+       * Chirs Gayle has scored 7 centuries.
+       
+       * Virat Kohli has scored  5 centuries.
+       
+       * David Warner and Shane Watson has scored 4 centuries each.

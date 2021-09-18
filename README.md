@@ -82,13 +82,8 @@ There are 179078 entries in the deliveries.csv file.
       Kings XI Punjab,While least number of matches were played by Kochi Tuskers Kerala, followed by Delhi Capitals.
       Rising Pune Supergiant and  Gujarat Lions played 30 match each.
       
-      * Most number of win is 109 for Mumbai Indians followed by Chennai Super Kings 100  and on third is Kolkata Knight
-      Riders with 92 wins .While mere 6 wins Kochi Tuskers Kerala has the least number of wins but they played only 1 season.
       
-      * In terms of winning percentage Delhi capitals led with a winning percent of 62.5% ,they too had played only 1 season,
-      In second place with 60.97% is chennai Super Kings, and on third is Mumbai Indians with a winning percentage of 58.28%.
-      
-## **Most wins per Season**
+ ## **Most wins per Season**
 <p align="center">
    <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Teams%20with%20most%20wins%20per%20Season.png" alt="Teams with most wins per season">
 </p>
@@ -97,3 +92,63 @@ There are 179078 entries in the deliveries.csv file.
       these feat in the season 2008  and 2013 respectively.
 
       * Mumbai Indians has most number of wins in 4 seasons(2010, 2013, 2017, and 2019).
+
+      
+      
+## **Bowler Statistics**
+
+### **Highest Wicketakers in IPL history**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Highest%20Wickettakers.png" alt="Highest Wickettakers">
+</p>
+
+      * S Malinga has highest wickets to his name.He has taken 170 wickets in 122 matches
+      * A Mishra is the second highets wicketakers with 156 wickets in 147 games.
+      * In 3rd H Singh has 150 wickets in his name in 157 games.
+      
+      * Most number of win is 109 for Mumbai Indians followed by Chennai Super Kings 100  and on third is Kolkata Knight
+      Riders with 92 wins .While mere 6 wins Kochi Tuskers Kerala has the least number of wins but they played only 1 season.
+      
+      * In terms of winning percentage Delhi capitals led with a winning percent of 62.5% ,they too had played only 1 season,
+      In second place with 60.97% is chennai Super Kings, and on third is Mumbai Indians with a winning percentage of 58.28%.
+      
+ ### **Economical Bowler**
+ Economy of a Bowler describes how many runs scored per ball  to the total number of balls bowled by the bowler.Considering only those bowlers who has played atleast 20 games and 20 overs.
+ <p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Economical%20Bowler.png" alt="Economical Bowler">
+ </p>
+ 
+      * A kumble is the most economy bowler with a economy rate of 6.76
+      
+      * S Narine has the second lowest economy with 6.87
+      
+      * In 3rd its D Vettori with 6.88 economy rate
+
+The top 5 economy bowlers are the Spinners.
+D Steyn is the only fast bowler who is in the top 10 of lowest economy bowler with a economy rate of 6.95 
+
+
+### **Bowler with Best Bowling Average**
+The average number of runs conceded per wicket. (Ave = Runs/W). Considering only those bowlers who has played atleast 14 games and 20 overs.
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Bowlers%20with%20best%20Average.png" at="Bowlers with best Average">
+</p>
+
+         * BJ Hodge and  has the best bowling average of 18.24
+         
+         * K Rabada has the second best average of 19.32
+
+         * D Bollinger has the third best bowling average of 19.35
+         
+         
+### **Bowler with Best Bowling Strike Rate**
+The average number of balls bowled per wicket taken. (SR = Balls/W). Considering only those bowlers who has played atleast 14 games and 20 overs.
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Bowler%20with%20Best%20Bowling%20Strike%20Rate.png" at="Bowlers with best Strike Rate">
+</p>
+    
+      * BJ Hodge and K Rabada has the best Strike Rate of 14. He is expected to take wickets after every 14 balls bowled
+      
+      * A Reddy has the second best of 15.
+      
+      * S Gopal has the third best of 15.61.

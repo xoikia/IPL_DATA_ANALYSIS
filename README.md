@@ -1,16 +1,23 @@
 # IPL_DATA_ANALYSIS
-The dataset has data till the season 2019
+<p align="center">
+  <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/IPL.jfif" alt="IPL">
+</p>
 
-Some of the modules need to be installed  plotly ,seaborn for visualization.
+
+***Note: The dataset has data till the season 2019***
+
+
 Two datasets have been use one is the macthes data which stores all the informations of all the match and the other is deliveries.csv file ,this files stores all the delivery ever bowled in the tournament.
 
-The **mathces.csv** file consist of 17 columns. ***Season, city, date, team1, team2, toss_winner, toss_decision, result, dl_applied, winner, win_by_runs, win_by_wickets, player_of_match, venue, umpire1, umpire2, umpire3. The file consists of 756 rows.***
+The [mathces.csv](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/matches.csv) file consist of 17 columns. ***Season, city, date, team1, team2, toss_winner, toss_decision, result, dl_applied, winner, win_by_runs, win_by_wickets, player_of_match, venue, umpire1, umpire2, umpire3. The file consists of 756 rows.***
 
 Total 756 matches were played combining all the season
-* While most of the columns didn't have any null value expect city ,winner,player_of_match, umpire1,umpire2,umpire3
-* umpire3 has most number of missing values
 
-The **deliveries.csv** file consist of 21 columns, The columns are ***match_id, inning, batting_team, bowling_team, over, ball, batsman, non_striker, bowler, is_super_over, wide_runs, bye_runs, legbye_runs, noball_runs, penalty_runs, batsman_runs, extra_runs, total_runs, player_dismissed, dismissal_kind, fielder***    
+	* While most of the columns didn't have any null value expect city ,winner,player_of_match, umpire1,umpire2,umpire3
+
+	* umpire3 has most number of missing values
+
+The [deliveries.csv](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/deliveries.csv) file consist of 21 columns, The columns are ***match_id, inning, batting_team, bowling_team, over, ball, batsman, non_striker, bowler, is_super_over, wide_runs, bye_runs, legbye_runs, noball_runs, penalty_runs, batsman_runs, extra_runs, total_runs, player_dismissed, dismissal_kind, fielder***    
 
 There are 179078 entries in the deliveries.csv file.
 
@@ -432,7 +439,7 @@ The number of times the team winning toss have won is  393 and the probability o
 
 
 
-So this was the overall statistics, apart from that I have created two new csv files after preprocessing , they are final [Players_data.csv](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Players_data.csv), [Final_Data.csv](https://github.com/xoikia/IPL_DATA_ANALYSIS#:~:text=3%20days%20ago-,Final_Data.csv,-Add%20files%20via). These two files will be used for further anlaysis. I have created a helper files called [Utility_Functions.py](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Utility_Functions.py) which contains all the necessary methods to obtain the various stats. I have build the statistics of each team separately. So I will describe the statistics of Chennai Super Kings only  as it is not possible to include all those statistics here.
+So this was the overall statistics, apart from that I have created two new csv files after preprocessing , they are final [Players_data.csv](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Players_data.csv), [Final_Data.csv](https://github.com/xoikia/IPL_DATA_ANALYSIS#:~:text=3%20days%20ago-,Final_Data.csv,-Add%20files%20via). These two files will be used for further anlaysis. I have created a helper files called [Utility_Functions.py](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Utility_Functions.py) which contains all the necessary class and functions to obtain the various stats. I have build the statistics of each team separately. So I will describe the statistics of Chennai Super Kings only  as it is not possible to include all those statistics here.
 
 
 
@@ -630,7 +637,201 @@ match_won_loss(csk_data,'Chennai Super Kings')
 |	bat	|      30        |       18        |
 | 	field	|      27	 |       14        |
 
+
+### **Stats when batted or fielded first(whether opted or ask)**
+```
+stats_battingfirst_and_fieldingfirst(csk_data,'Chennai Super Kings')
+```
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/stats_battingfirst_fieldinfgfirst_csk.png" alt="stats on batting and fielding">
+</p>
+
+	* Batting first Chennai Super Kings won 52 and loss 37 matches.
+	
+	* Fielding first Chennai Super Kings won 48 and loss 26 matches.
+	
+	
+### **Cheking the highets and lowest targets set**	
+Creating an object of team_score_set
+```
+csk_score=team_score_set('Chennai Super Kings', csk_data)
+```
+**Top 5 Highest Target Set**
+```
+csk_score.nhighestrunset(5)
+```
+|BF_Set	|BF_HScorer	|BF_PlayerScored  |	winner        |
+|-------|---------------|-----------------|-------------------|
+|246	|M Vijay	|     127	  |Chennai Super Kings|
+|240	|MEK Hussey	|     116	  |Chennai Super Kings|
+|223	|SK Raina	|      99	  |Chennai Super Kings|
+|222	|M Vijay	|     113	  |Chennai Super Kings|
+|218	|SR Watson	|      79	  |Chennai Super Kings|
+
+
+**Top 5 Lowest Target Set**
+```
+csk_score.nlowsetrunset(5)
+```
+|BF_Set	|BF_HScorer	|BF_PlayerScored|	winner        |
+|-------|---------------|---------------|---------------------|
+|109	|JA Morkel	|      42	|Rajasthan Royals     |
+|110	|DJ Bravo	|      22	|Delhi Capitals       |
+|112	|S Badrinath	|      30	|Delhi Capitals       |
+|112	|SK Raina	|      36	|Mumbai Indians       |
+|114	|S Badrinath	|      54	|Kolkata Knight Riders|
+
+
+### **Best Players of Chennai Super Kings**
+Creating a object of the best_players class
+```
+csk_bplayers=best_players('Chennai Super Kings', players_data)
+```
+
+**Highest Rungetter of Chennai Super Kings**
+```
+csk_bplayers.nhighestrungetter(5)
+```
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/CSK%20highest%20runs%20getter.png" alt="CSK highest Run scorer">
+</p>
+
+
+|Player	        |Team Batting           |Innings       |   Runs  |
+|---------------|-----------------------|--------------|---------|
+|SK Raina	|Chennai Super Kings	|160.0	       |   4566  |
+|MS Dhoni	|Chennai Super Kings	|143.0	       |   3903  |
+|MEK Hussey	|Chennai Super Kings	|49.0	       |   1768  |
+|M Vijay	Chennai |Super Kings	|66.0	       |   1679  |
+|F du Plessis	|Chennai Super Kings	|57.0	       |   1660  |
+
+
+**Highest wickettakers of Chennai Super Kings
+```
+csk_bplayers.nhighestwickettakers(5)
+```
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/CSK%20highestwickettakers.png" alt="CSK highest Wickettaker">
+</p>
+
+
+|Player	    |        Team	| Bowling Innings | Wickets |
+|-----------|-------------------|-----------------|---------|
+|DJ Bravo   |Chennai Super Kings|	86.0      |  104    |
+|R Ashwin   |Chennai Super Kings|	94.0	  |   90    |
+|RA Jadeja  |Chennai Super Kings|	90.0	  |   81    |
+|JA Morkel  |Chennai Super Kings|	75.0	  |   76    |
+|MM Sharma  |Chennai Super Kings|	48.0	  |   58    |
+
+
+
+**Best Allrounder of Chennai Super Kings**
+```
+csk_bplayers.nbestallrounders()
+```
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/CSK%20bestallrounders.png" alt="CSK Best All Rounder">
+</p>
+
+
+|Player	  |   Team Batting    |Innings	|Runs	|Bowling Innings| Wickets|
+|---------|-------------------|---------|-------|---------------|--------|
+|SK Raina |Chennai Super Kings|	160	|4566   |      59	|    24  |
+|DJ Bravo |Chennai Super Kings|	 62	|942	|      86	|   104  |
+|RA Jadeja|Chennai Super Kings|  66	|889	|      90	|    81  |
+|JA Morkel|Chennai Super Kings|  58	|827	|      75	|    76  |
+
+
+
+### **Most impactfull player for the club**
+```
+mv_player(csk_data,'Chennai Super Kings')
+```
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/CSK%20MVP.png" alt="CSK MVP">
+</p>
+
+	* MS Dhoni has 15 player of match award which is the highest by any player for the club.
+	
+	* Followed by Suresh Raina and M Hussey 12 and 10 respectively.
+	
+	
+### **Most impactfull player while setting or chasing a target**
+```
+mvp_ondifferent_ocassions(csk_data,'Chennai Super Kings')
+```
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/CSK%20MVP%20while%20chasing.png" alt="CSK MVP on different ocassions">
+</p>
+
+**BATTING FIRST**
+
+	* Dhoni and Raina has 9 player of match award each.
+	
+	* In second Hussey who have 6 plyer of match.
+	
+	* In third Jadeja and M Vijay has 4.
+
+**CHASING TARGET**
+
+	* Dhoni has 6 player of match.
+	
+	* Hussey ,Jadeja,F du Plessis has 4 each.
+	
+	* Raina,Watson , DR Smith has 3 each.
+
+
+Dhoni is the most important player for the team whether it is runchase or setting a target. Raina is the second most important player for the team.
+
+
+### **Players with most MVP award per season**
+```
+mvp_for_different_Seasons(csk_data,'Chennai Super Kings')
+```
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/CSK%20MVP%20for%20different%20seasons.png" alt="Players with MVP awards each season">
+</p>
+
+
+|season| player_of_match |Count |
+|------|-----------------|------|
+|2008  |M Ntini	         |  2   |
+|2008  |MS Dhoni	 |  2   |
+|2009  |M Muralitharan	 |  2   |
+|2009  |ML Hayden	 |  2   |
+|2010  |M Vijay	         |  2   |
+|2010  |MS Dhoni	 |  2   |
+|2010  |SK Raina	 |  2   |
+|2011  |MEK Hussey	 |  3   |
+|2012  |BW Hilfenhaus	 |  2   |
+|2012  |F du Plessis	 |  2   |
+|2013  |MEK Hussey	 |  5   |
+|2014  |DR Smith	 |  3   |
+|2014  |RA Jadeja	 |  3   |
+|2015  |A Nehra	         |  3   |
+|2018  |SR Watson	 |  3   |
+|2019  |MS Dhoni	 |  3   |
+
+
+
+MEK Hussey holds the record of winning most POM Awards in a season for CSK, He has won 5 Awards in 2013. Apart from him MS Dhoni and Suresh Raina are most important players for their teams.
    
+   
+   
+This was all the statistics relating to Chennai Super Kings , while rest of the teams statistics have been uploaded you can check it. The other files are
+
+[Delhi Capitals Analysis](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Delhi_Capitals_Analysis_Report.ipynb)
+[Deccan Chargers Analysis](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Deccan_Chargers_Analysis_Report.ipynb)
+[Gujarat Lions Analysis](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Gujarat_Lions_Analysis_Report.ipynb)
+[Kings XI PUnjab Analysis](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Kings_XI_Punjab_Analysis_Report.ipynb)
+[Kochi Tuskers Kerala Analysis](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Kochi_Tuskers_Kerala_Analysis_Report.ipynb)
+[Mumbai Indian Analysis](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Mumbai_Indians_Analysis_Report.ipynb)
+[Pune Warriors Analysis](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Pune_Warriors_Analysis_Report.ipynb)
+[Rajasthan Royals Analysis](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Rajasthan_Royals_Analysis_Report.ipynb)
+[Rising Pune Super Giant Analysis](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Rising_Pune_Supergiant_Analysis_Report.ipynb)
+[Royal Challenger Bangalore Analysis](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Royal_Challengers_Bangalore_Analysis_Report.ipynb)
+[Sunrisers Hyderabad Analysis](https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/Sunrisers_Hyderabad_Analysis_Report.ipynb)
+
 
 
 

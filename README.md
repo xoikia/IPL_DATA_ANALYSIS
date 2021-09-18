@@ -78,9 +78,32 @@ There are 179078 entries in the deliveries.csv file.
    <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Most%20Succesfull%20Team.png" alt="Most Succesfull Team">
 </p>
 
-      * Most matches were played by Mumbai Indians followed by Royal challengers Banglore,Kolkata Knight Riders,
-      Kings XI Punjab,While least number of matches were played by Kochi Tuskers Kerala, followed by Delhi Capitals.
-      Rising Pune Supergiant and  Gujarat Lions played 30 match each.
+|         Teams             |total_games	 |win	|winning_percentage|
+|---------------------------|--------------|----|------------------|
+|Mumbai Indians	          |  187	       |109	|   58.288770      |
+|Kings XI Punjab	          |  176	       |82	|   46.590909      |
+|Chennai Super Kings	       |  164	       |100	|   60.975610      |
+|Royal Challengers Bangalore|  180         |84	|   46.666667      |
+|Kolkata Knight Riders	    |  178	       |92	|   51.685393      |
+|Delhi Capitals	          |  177	       |77	|   43.502825      |
+|Rajasthan Royals	          |  147	       |75	|   51.020408      |
+|Sunrisers Hyderabad	       |  108	       |58	|   53.703704      |
+|Deccan Chargers	          |  75	       |29	|   38.666667      |
+|Pune Warriors	             |  46	       |12	|   26.086957      |
+|Rising Pune Supergiant	    |  30	       |15	|   50.000000      |
+|Gujarat Lions	             |  30	       |13	|   43.333333      |
+|Kochi Tuskers Kerala	    |  14	       |6	|   42.857143      |
+
+     *  Most matches were played by Mumbai Indians followed by Royal challengers Banglore,Kolkata Knight Riders,Kings XI Punjab,
+     While least number of matches were played by Kochi Tuskers Kerala, followed by Delhi Capitals.Rising Pune Supergiant and 
+     Gujarat Lions played 30 match each.
+
+     * Most number of win is 109 for Mumbai Indians followed by Chennai Super Kings 100  and on third is Kolkata Knight Riders 
+     with 92 wins .While mere 6 wins Kochi Tuskers Kerala has the least number of wins but they played only 1 season.
+
+      * In terms of winning percentage Delhi capitals led with a winning percent of 62.5% ,they too had played only 1 season, 
+      In second place with 60.97% is chennai Super Kings, and on third is Mumbai Indians with a winning percentage of 58.28%.
+
       
       
  ## **Most wins per Season**
@@ -269,6 +292,28 @@ The following graph shows the number of wickets taken and number of overs bowled
       * The third highest run getter is Rohit Sharma with 4914 runs.
       
       
+ ### **Fastest centuries in IPL**
+ 
+ 	|match_id|      Team	                 |  Player	       |        Opposition	           |Balls for century	|Total Runs scored |	Total Balls faced|
+   |--------|----------------------------|----------------|------------------------------|------------------|------------------|------------------|
+	|411	   |Royal Challengers Bangalore |CH Gayle	       |Pune Warriors	              |      30	         |      175	       |       66         |
+	|176	   |Rajasthan Royals	           |YK Pathan	    |Mumbai Indians	              |      37	         |      100	       |       37         |
+	|448	   |Kings XI Punjab	           |DA Miller	    |Royal Challengers Bangalore	  |      38	         |      101	       |       38         |
+	|72	   |Deccan Chargers	           |AC Gilchrist	 |Mumbai Indians	              |      42	         |      109	       |       47         |
+	|36	   |Sunrisers Hyderabad	        |DA Warner	    |Kolkata Knight Riders	        |      43	         |      126	       |       59         |
+   
+   
+   ### **Fastest Fifties in IPL**
+   
+   |match_id  |	  Team	              |   Player	    |        Opposition	           |Balls_for_50 |Total Runs Scored |Total Balls faced|
+   |----------|--------------------------|----------------|------------------------------|-------------|------------------|-----------------|
+   |7895	     |Kings XI Punjab	        |KL Rahul	       |Delhi Capitals	              |     14	    |       51	        |      16         |
+	|511	     |Kolkata Knight Riders	  |YK Pathan	    |Sunrisers Hyderabad	        |     15	    |       72         |	   22         |
+	|45	     |Kolkata Knight Riders	  |SP Narine	    |Royal Challengers Bangalore	  |     15	    |       54	        |      17         |
+	|516	     |Chennai Super Kings	     |SK Raina	       |Kings XI Punjab	              |     16	    |       87	        |      25         |
+	|172	     |Deccan Chargers	        |AC Gilchrist	 |Delhi Capitals	              |     17	    |       85	        |      35         |
+      
+      
 ### **Players with most Half Centuries and Centuries**
 <p align="center">
    <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Players%20with%20most%20Half%20Centuries%20and%20Centuries.png" alt="Players with most 50's and 100's scored">
@@ -372,4 +417,16 @@ Selecting the top 10 players with most 4's and selecting the 10 player with most
 
       * Kolkata Knight Riders have set the second highest target of 250.
 
+## **Statistics related to the TOSS**
+### **Elected Batting First**
+      * Team won the toss and opting to bat first won 135 matches.
+      
+      * Team won the toss and opting to bat first lost  153 matches.
+      
+### **Elected Fielding First**
+      * Team won the toss and opting to field  first won  253 matches.
+      
+      * Team won the toss and opting to field first lost 202 matches.
+      
+The number of times the team winning toss have won is  393 and the probability of winning if won the toss is  0.52
 

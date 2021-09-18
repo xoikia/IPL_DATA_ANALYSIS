@@ -16,7 +16,7 @@ There are 179078 entries in the deliveries.csv file.
 
 # Some key statistics that were explored
 
-#### Winning margin in runs, Winning margin in wickets
+### **Winning margin in runs, Winning margin in wickets**
 
 
     * The highest win margin by runs is 146.
@@ -24,10 +24,51 @@ There are 179078 entries in the deliveries.csv file.
     * The highest win margin by wickets is 10
     * 75% of the winning team that fielded first won by a margin of  less than 6 wickets and 25% more than 6 wickets
     
-#### Most games officiated by an Umpire
+### **Most games officiated by an Umpire**
 
     * S Ravi has officiated in 106 matches which is the highest number of matches officiated by any umpire, followed by Dharmasena 87.
     * Subroto Das and Nand Ksihore has least number of matches officiated, 1 each.
     
     
-#### Games Played per Season
+### **Games Played per Season**
+
+<p align="center">
+  <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Matches%20Played%20per%20Season.png" alt="Matches per Season">
+</p>
+      
+      
+     * Total of 76 matches were played in the 2013 season which  is the highest number of matches played for a season .
+     * In 2009 season 57 matches were played which is the minimum number of matches played in any season
+
+
+### **Games played per city**
+
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Games%20Played%20Per%20City.png" alt="Games Played per City">
+</p>
+ 
+      * Mumbai holds the highest number 101 to host matches,followed by Kolkata 77 and Delhi 74.
+      * Bloemfontein host least number of matches,i.e 2 , follwoed by Kimberley 3,Nagpur 3 and East London 3
+     
+     
+### **Games played per Venue**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Games%20Played%20Per%20Stadium.png" alt="Games Played per City">
+</p>
+ 
+ 
+      * A total of 40 stadiums were used from 2008-2019.
+      * Eden Garden hosted 77 matches which is the highest number of matches hosted by any stadium followed by Wankhede Stadium 73,M Chinnaswamy Stadium 73 ,Feroz Shah Kotla 67, Rajiv Gandhi International Stadium, Uppal 56.
+      * ACA-VDCA Stadium hosted 2 matches which is the least number of matches played.
+      
+      
+### **Most Succesfull Team**
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Most%20Succesfull%20Team.png" alt="Most Succesfull Team">
+</p>
+
+      * Most matches were played by Mumbai Indians followed by Royal challengers Banglore,Kolkata Knight Riders,Kings XI Punjab,While least number of matches were played by Kochi Tuskers Kerala, followed by Delhi Capitals.Rising Pune Supergiant and  Gujarat Lions played 30 match each.
+      * Most number of win is 109 for Mumbai Indians followed by Chennai Super Kings 100  and on third is Kolkata Knight Riders with 92 wins .While mere 6 wins Kochi Tuskers Kerala has the least number of wins but they played only 1 season.
+      * In terms of winning percentage Delhi capitals led with a winning percent of 62.5% ,they too had played only 1 season, In second place with 60.97% is chennai Super Kings, and on third is Mumbai Indians with a winning percentage of 58.28%.
+      
+##

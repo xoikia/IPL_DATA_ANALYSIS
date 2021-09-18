@@ -79,20 +79,20 @@ There are 179078 entries in the deliveries.csv file.
 </p>
 
 |         Teams             |total_games	 |win	|winning_percentage|
-|---------------------------|--------------|----|------------------|
-|Mumbai Indians	          |  187	       |109	|   58.288770      |
-|Kings XI Punjab	          |  176	       |82	|   46.590909      |
-|Chennai Super Kings	       |  164	       |100	|   60.975610      |
-|Royal Challengers Bangalore|  180         |84	|   46.666667      |
-|Kolkata Knight Riders	    |  178	       |92	|   51.685393      |
-|Delhi Capitals	          |  177	       |77	|   43.502825      |
-|Rajasthan Royals	          |  147	       |75	|   51.020408      |
-|Sunrisers Hyderabad	       |  108	       |58	|   53.703704      |
-|Deccan Chargers	          |  75	       |29	|   38.666667      |
-|Pune Warriors	             |  46	       |12	|   26.086957      |
-|Rising Pune Supergiant	    |  30	       |15	|   50.000000      |
-|Gujarat Lions	             |  30	       |13	|   43.333333      |
-|Kochi Tuskers Kerala	    |  14	       |6	|   42.857143      |
+|---------------------------|--------------------|------|------------------|
+|Mumbai Indians	            |  187	         |109	|   58.288770      |
+|Kings XI Punjab	    |  176	         |82	|   46.590909      |
+|Chennai Super Kings	    |  164	         |100	|   60.975610      |
+|Royal Challengers Bangalore|  180               |84	|   46.666667      |
+|Kolkata Knight Riders	    |  178	         |92	|   51.685393      |
+|Delhi Capitals	            |  177	         |77	|   43.502825      |
+|Rajasthan Royals	    |  147	         |75	|   51.020408      |
+|Sunrisers Hyderabad	    |  108	         |58	|   53.703704      |
+|Deccan Chargers	    |  75	         |29	|   38.666667      |
+|Pune Warriors	            |  46	         |12	|   26.086957      |
+|Rising Pune Supergiant	    |  30	         |15	|   50.000000      |
+|Gujarat Lions	            |  30	         |13	|   43.333333      |
+|Kochi Tuskers Kerala	    |  14	         |6	|   42.857143      |
 
      *  Most matches were played by Mumbai Indians followed by Royal challengers Banglore,Kolkata Knight Riders,Kings XI Punjab,
      While least number of matches were played by Kochi Tuskers Kerala, followed by Delhi Capitals.Rising Pune Supergiant and 
@@ -294,13 +294,13 @@ The following graph shows the number of wickets taken and number of overs bowled
       
  ### **Fastest centuries in IPL**
  
- 	|match_id|      Team	                 |  Player	       |        Opposition	           |Balls for century	|Total Runs scored |	Total Balls faced|
-   |--------|----------------------------|----------------|------------------------------|------------------|------------------|------------------|
-	|411	   |Royal Challengers Bangalore |CH Gayle	       |Pune Warriors	              |      30	         |      175	       |       66         |
-	|176	   |Rajasthan Royals	           |YK Pathan	    |Mumbai Indians	              |      37	         |      100	       |       37         |
-	|448	   |Kings XI Punjab	           |DA Miller	    |Royal Challengers Bangalore	  |      38	         |      101	       |       38         |
-	|72	   |Deccan Chargers	           |AC Gilchrist	 |Mumbai Indians	              |      42	         |      109	       |       47         |
-	|36	   |Sunrisers Hyderabad	        |DA Warner	    |Kolkata Knight Riders	        |      43	         |      126	       |       59         |
+ |match_id|      Team	               |  Player	|        Opposition	       |Balls for century |Total Runs scored |	Total Balls faced|
+ |--------|----------------------------|----------------|------------------------------|------------------|------------------|-------------------|
+ |411	  |Royal Challengers Bangalore |CH Gayle	|Pune Warriors		       |      30	  |      175	     |       66          |
+ |176	  |Rajasthan Royals	       |YK Pathan	|Mumbai Indians	               |      37	  |      100	     |       37          |
+ |448	  |Kings XI Punjab	       |DA Miller	|Royal Challengers Bangalore   |      38	  |      101	     |       38          |
+ |72	  |Deccan Chargers	       |AC Gilchrist	|Mumbai Indians	               |      42	  |      109	     |       47          | 
+ |36	  |Sunrisers Hyderabad	       |DA Warner	|Kolkata Knight Riders	       |      43	  |      126	     |       59          |
    
    
    ### **Fastest Fifties in IPL**

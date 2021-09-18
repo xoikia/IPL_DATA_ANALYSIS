@@ -287,3 +287,47 @@ The following graph shows the number of wickets taken and number of overs bowled
        * Virat Kohli has scored  5 centuries.
        
        * David Warner and Shane Watson has scored 4 centuries each.
+       
+       
+### **Player with Highest Strike rate**
+Considering only those players who has scored atleast 500 runs
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Player%20with%20Highest%20Strike%20rate.png" alt="Players with highest Strike Rate">
+</p>
+
+      * A Russel has the highest Strike Rate of 179.95
+      
+      * Moen Ali has the next highest Strike Rate of 169.94
+      
+      * In third Sunil Narine with 166.94
+
+### **Players with most number of Boundaries**
+Selecting the top 10 players with most 4's and selecting the 10 player with most 6's hit ,Finally combining them to get a list of players who has hit either most 4's or 6's
+<p align="center">
+   <img src="https://github.com/xoikia/IPL_DATA_ANALYSIS/blob/master/readme_images/Players%20with%20most%20number%20of%20Boundaries.png" alt="Players with most boundaries scored">
+</p>
+
+**Most Six scored**
+
+      * Chris Gayle has scored 326 sixes which is the highest number of sixes scored by a player.
+      
+      * AB de Villiers has scored  212 sixex.
+      
+      * MS Dhoni has scored 207 sixes.
+      
+**Most Fours scored**
+
+      * S Dhawan has scored 526 fours which is the highest.
+      
+      * SK Raina has scored 495 fours.
+      
+      * Gautam Gambhir has scored 492 fours.
+      
+**Most Runs scored in Boundaries**
+
+      * Chris Gayle has scored 3448 runs in boundaries which is the highest.
+      
+      * Virat Kohli has scored second highest run in boundaries, 3070 runs.
+      
+      * Rohit Sharma has scored 2888 runs which is the third highest.
+      
